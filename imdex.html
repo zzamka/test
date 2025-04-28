@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عزام- مهندس البرمجيات</title>
+  <!-- إضافة Tailwind CSS عبر CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <h1 class="text-xl font-bold">عزام كمال يحي ادم </h1>
+      <ul class="flex space-x-4">
+        <li><a href="#home" class="hover:text-blue-300">الرئيسية</a></li>
+        <li><a href="#projects" class="hover:text-blue-300">الأعمال</a></li>
+        <li><a href="#skills" class="hover:text-blue-300">المهارات</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="py-20 bg-blue-50">
+    <div class="container mx-auto text-center">
+      <img src="img/img3.png" alt="صورة شخصية" class="w-40 h-40 object-cover rounded-md mx-auto mb-6 border-4 border-blue-600">
+      <h2 class="text-4xl font-bold text-blue-800 mb-4">مرحبًا، أنا [عزام كمال يحي ادم ]</h2>
+      <p class="text-lg text-gray-600">مهندس برمجيات متخصص في تطوير الويب والتطبيقات</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-blue-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-800 mb-8">أعمالي</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="project1.jpg" alt="مشروع 1" class="w-full h-40 object-cover rounded-md mb-4 border-4 border-blue-600">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">مشروع 1</h3>
+          <p class="text-gray-600">وصف قصير عن المشروع الأول.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="project2.jpg" alt="مشروع 2" class="w-full h-40 object-cover rounded-md mb-4 border-4 border-blue-600">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">مشروع 2</h3>
+          <p class="text-gray-600">وصف قصير عن المشروع الثاني.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="project3.jpg" alt="مشروع 3" class="w-full h-40 object-cover rounded-md mb-4 border-4 border-blue-600">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">مشروع 3</h3>
+          <p class="text-gray-600">وصف قصير عن المشروع الثالث.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-blue-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-800 mb-8">مهاراتي</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">HTML</h3>
+          <div class="relative pt-1">
+            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded bg-blue-200">
+              <div style="width: 95%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">CSS</h3>
+          <div class="relative pt-1">
+            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded bg-pink-200">
+              <div style="width: 90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">JavaScript</h3>
+          <div class="relative pt-1">
+            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded bg-green-200">
+              <div style="width: 85%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Tailwind CSS</h3>
+          <div class="relative pt-1">
+            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded bg-purple-200">
+              <div style="width: 90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-6 mt-10">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 عزام كمال يحي ادم . جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+</body>
+</html>
